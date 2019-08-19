@@ -594,6 +594,24 @@ Servicios
     background-color: #e96767;
 }
 
+
+/* -----------------------------------Página de multimedia ---------------------------------------- */
+
+input[type="file"] {
+    height: 10em;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 3;
+}
+
+
+
+
+
+
 /* *********************** Media Query ***********************  */
 @media (max-width: 767px){
     .my-header .my-logo{
@@ -631,6 +649,12 @@ Servicios
         width: 100%;
     }
 }
+
+
+
+
+
+
 
 
 
