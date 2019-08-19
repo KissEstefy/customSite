@@ -8,10 +8,11 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/462098b676.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 
 </head>
 <body>
@@ -131,13 +132,75 @@
                     <div class="container">
                         <div class="row">
                         <div class="page-title text-center">
-                            <h1>Páginas</h1>
-                            <p>Sube las páginas que deseas editar.</p>
+                            <h1>Plantillas</h1>
+                            <p>Elige la plantilla que deseas editar.</p>
                             <hr class="pg-titl-bdr-btm"></hr>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                                <div class="service-box">
+                                    <div class="service-icon"><i class="far fa-folder"></i></div>
+                                        <div class="service-text">
+                                            <h3>Archivos</h3>
+                                            <p>Sube archivos como word, pdf, otros. Max archivos</p>
+                                            <a href="#myModal" data-toggle="modal" class="btn btn-banner" style="background-color: #fff"> Comenzar <i class="fas fa-magic"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="page-title text-center page-title-conten">
+                                    <div class="widget estadisticas">
+                                            <div class="contenedor d-flex flex-wrap estadisticas-conten1">
+                                                <div class="caja caja-contenedor">
+
+                                                </div>
+                                            </div>
+                                        </div>                               
+                                    </div>
+                            </div>
+                        </div>
                 </div>
             </div>
+
+            <div id="myModal" class="modal fade">
+                    <div class="modal-dialog modal-login">
+                            <div class="login-wrap modal2">
+                        <div class="login-html">
+                            <input id="tab-2" type="radio" name="tab" class="sign-up" checked><label for="tab-2" class="tab">Subir Archivo</label>
+                            <div class="login-form">
+                                <div class="sign-up-htm">
+                                    <div class="group">
+                                        <label for="favicon" class="label" > Subir Favicon</label>
+                                        <input id="favicon" type="text" class="input">
+                                    </div>
+                                    <div class="group">
+                                        <label for="logo" class="label">Subir logotipo</label>
+                                        <input id="logo" type="text" class="input" data-type="input">
+                                    </div>
+                                    <div class="group">
+                                        <label for="titulo" class="label">Titulo de Página</label>
+                                        <input id="titulo" type="text" class="input" data-type="input">
+                                    </div>
+                                    <div class="group">
+                                        <label for="descripcion" class="label">Descripción</label>
+                                        <textarea id="descripcion" placeholder="Type your Message Here...." tabindex="5"></textarea>                                    
+                                    </div>
+                                    <div class="group">
+                                            <label for="clave" class="label">Palabras Clave</label>
+                                            <textarea id="clave" placeholder="Type your Message Here...." tabindex="5"></textarea>                                    
+                                        </div>
+                                        <div class="group">
+                                                <input type="submit" class="button" value="Sign Up">
+                                            </div>
+                                    <div class="hr"></div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>     
+                </div>
+
     </main>
 
     <script src="js/jquery.min.js"></script>
