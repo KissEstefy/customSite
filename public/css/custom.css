@@ -568,15 +568,30 @@ Servicios
 }
 
 
-/* ---------------------------------------- Página de Opciones------------------------------------------------- */
-.settings-section {
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    min-width: 850px;
-    max-width: 1048px;
-    margin: 0 auto 30px;
-    box-sizing: border-box;
+/* ---------------------------------------- Página Opciones------------------------------------------------- */
+
+.main .estadisticas .caja.cajapeq.caja-opciones {
+    padding: 15px 20px;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+ 
+}
+
+
+.main .estadisticas .caja.cajapeq.caja-opciones a{
+    color: #e43c5c;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+}
+
+.main .columna.conten-opciones{
+    border-radius: 10px;
+}
+
+.main .columna .estadisticas .estadisticas-contenpeq:hover{
+    background-color: #e96767;
 }
 
 /* *********************** Media Query ***********************  */
